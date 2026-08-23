@@ -1,0 +1,13 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.bilanceapp/bilance",
+  "description": "Ask about your own Bilance finances: accounts and balances, transactions, budgets, recurring payments, and a once-a-day bank refresh.",
+  "version": "1.0.0",
+  "websiteUrl": "https://bilanceapp.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bilanceapp.com/mcp"
+    }
+  ]
+}
