@@ -1,0 +1,38 @@
+{
+  "name": "bilance",
+  "displayName": "Bilance",
+  "version": "1.0.0",
+  "description": "Ask about your own money: accounts and balances, transactions, budgets, recurring payments, and a once-a-day bank refresh.",
+  "author": {
+    "name": "Bilance",
+    "url": "https://bilanceapp.com"
+  },
+  "homepage": "https://bilanceapp.com",
+  "license": "UNLICENSED",
+  "keywords": [
+    "finance",
+    "budgeting",
+    "banking",
+    "personal-finance"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Bilance",
+    "shortDescription": "Ask about your own money",
+    "longDescription": "Connect your Bilance account and ask about your own finances: accounts and balances, transactions (including CSV export), budgets, and recurring payments. Read-only, apart from a bank refresh you can trigger at most once a day. You sign in with your Bilance account and can disconnect at any time in the app under Settings > Connected AI apps.",
+    "developerName": "Bilance",
+    "category": "Finance",
+    "capabilities": [
+      "Read"
+    ],
+    "websiteURL": "https://bilanceapp.com",
+    "privacyPolicyURL": "https://bilanceapp.com/privacy",
+    "termsOfServiceURL": "https://bilanceapp.com/terms",
+    "defaultPrompt": [
+      "What did I spend on groceries last month?",
+      "Which subscriptions renew this week?",
+      "How am I doing against my budgets?"
+    ],
+    "brandColor": "#6E15C1"
+  }
+}

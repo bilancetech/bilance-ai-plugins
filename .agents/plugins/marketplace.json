@@ -1,0 +1,8 @@
+{
+  "name": "bilance",
+  "description": "Official Bilance plugins for AI coding agents.",
+  "owner": { "name": "Bilance", "url": "https://bilanceapp.com" },
+  "plugins": [
+    { "name": "bilance", "source": "./plugins/bilance" }
+  ]
+}

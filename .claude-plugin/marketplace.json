@@ -1,0 +1,17 @@
+{
+  "name": "bilance",
+  "description": "Official Bilance plugins for AI coding agents.",
+  "owner": {
+    "name": "Bilance",
+    "email": "support@bilanceapp.com",
+    "url": "https://bilanceapp.com"
+  },
+  "plugins": [
+    {
+      "name": "bilance",
+      "source": "./plugins/bilance",
+      "category": "finance",
+      "tags": ["finance", "budgeting", "banking", "personal-finance"]
+    }
+  ]
+}
