@@ -2,7 +2,7 @@
   "name": "bilance",
   "displayName": "Bilance",
   "version": "1.0.0",
-  "description": "Ask about your own money: accounts and balances, transactions, budgets, recurring payments, and a once-a-day bank refresh.",
+  "description": "Ask about your own money: accounts and balances, transactions, budgets, recurring payments, net worth, and a once-a-day bank refresh.",
   "author": {
     "name": "Bilance",
     "url": "https://bilanceapp.com"
@@ -19,7 +19,7 @@
   "interface": {
     "displayName": "Bilance",
     "shortDescription": "Ask about your own money",
-    "longDescription": "Connect your Bilance account and ask about your own finances: accounts and balances, transactions (including CSV export), budgets, and recurring payments. Read-only, apart from a bank refresh you can trigger at most once a day. You sign in with your Bilance account and can disconnect at any time in the app under Settings > Connected AI apps.",
+    "longDescription": "Connect your Bilance account and ask about your own finances: accounts and balances, transactions (including CSV export), budgets, recurring payments, and net worth. Read-only, apart from a bank refresh you can trigger at most once a day. You sign in with your Bilance account and can disconnect at any time in the app under Settings > Connected AI apps.",
     "developerName": "Bilance",
     "category": "Finance",
     "capabilities": [

@@ -1,7 +1,7 @@
 {
   "name": "bilance",
   "version": "1.0.0",
-  "description": "Ask about your own money: accounts and balances, transactions, budgets, recurring payments, and a once-a-day bank refresh.",
+  "description": "Ask about your own money: accounts and balances, transactions, budgets, recurring payments, net worth, and a once-a-day bank refresh.",
   "mcpServers": {
     "bilance": {
       "httpUrl": "https://mcp.bilanceapp.com/mcp"

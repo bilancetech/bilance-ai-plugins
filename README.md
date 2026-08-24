@@ -30,6 +30,7 @@ codex mcp login bilance
 | Tool | What it does |
 | :--- | :--- |
 | Get finance context | Accounts, balances, budgets, data freshness, and how the numbers are defined. Start here. |
+| Get net worth | What you own and what you owe — manually tracked assets and account balances, by category. |
 | Query transactions | Search and paginate transactions; CSV export for bulk. |
 | Summarize finances | Totals by period or category, in your default currency. |
 | Get recurring payments | Subscriptions and recurring bills, with what's next and what's overdue. |

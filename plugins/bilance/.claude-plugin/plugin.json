@@ -1,7 +1,7 @@
 {
   "name": "bilance",
   "displayName": "Bilance",
-  "description": "Ask about your own money: accounts and balances, transactions, budgets, recurring payments, and a once-a-day bank refresh. Read-only, connected with your Bilance account.",
+  "description": "Ask about your own money: accounts and balances, transactions, budgets, recurring payments, net worth, and a once-a-day bank refresh. Read-only, connected with your Bilance account.",
   "version": "1.0.0",
   "author": {
     "name": "Bilance",
