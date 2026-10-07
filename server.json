@@ -1,9 +1,18 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.bilanceapp/bilance",
-  "description": "Your own Bilance finances: balances, transactions, budgets, recurring payments, net worth.",
-  "version": "1.0.0",
-  "websiteUrl": "https://bilanceapp.com",
+  "description": "Your Bilance finances: spending, budgets, net worth. Optional edits, switchable. Never moves money.",
+  "version": "1.1.0",
+  "websiteUrl": "https://bilanceapp.com/help/connect-ai-apps",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/bilancetech/bilance-ai-plugins/main/plugins/bilance/assets/bilance.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
   "remotes": [
     {
       "type": "streamable-http",

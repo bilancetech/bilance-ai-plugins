@@ -1,13 +1,14 @@
 {
   "name": "bilance",
   "displayName": "Bilance",
-  "version": "1.0.0",
-  "description": "Ask about your own money: accounts and balances, transactions, budgets, recurring payments, net worth, and a once-a-day bank refresh.",
+  "version": "1.1.0",
+  "description": "Ask about your own Bilance finances: balances, transactions, budgets, recurring payments and net worth. Optional edits to your records, switchable per app. Never moves money.",
   "author": {
     "name": "Bilance",
+    "email": "help@bilanceapp.com",
     "url": "https://bilanceapp.com"
   },
-  "homepage": "https://bilanceapp.com",
+  "homepage": "https://bilanceapp.com/help/connect-ai-apps",
   "license": "UNLICENSED",
   "keywords": [
     "finance",
@@ -18,12 +19,13 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Bilance",
-    "shortDescription": "Ask about your own money",
-    "longDescription": "Connect your Bilance account and ask about your own finances: accounts and balances, transactions (including CSV export), budgets, recurring payments, and net worth. Read-only, apart from a bank refresh you can trigger at most once a day. You sign in with your Bilance account and can disconnect at any time in the app under Settings > Connected AI apps.",
+    "shortDescription": "Ask about and organize your money",
+    "longDescription": "Connect your Bilance account to ask about your own money: accounts and balances, transactions with tags and notes, spending summaries and monthly reports, budgets, recurring payments and net worth. When you ask, it can also recategorize and tag transactions, add records, and manage budgets, categories, tags, recurring payments and assets. Changes are on by default and can be switched off per app in Settings > Connected AI apps, where you can also disconnect. Bilance never moves money: it cannot make payments or transfers from your bank. Accounts and transactions a partner shares with you are included.",
     "developerName": "Bilance",
     "category": "Finance",
     "capabilities": [
-      "Read"
+      "Read",
+      "Write"
     ],
     "websiteURL": "https://bilanceapp.com",
     "privacyPolicyURL": "https://bilanceapp.com/privacy",
@@ -33,6 +35,8 @@
       "Which subscriptions renew this week?",
       "How am I doing against my budgets?"
     ],
-    "brandColor": "#6E15C1"
+    "composerIcon": "./assets/bilance.png",
+    "logo": "./assets/bilance.png",
+    "brandColor": "#6D20B6"
   }
 }
